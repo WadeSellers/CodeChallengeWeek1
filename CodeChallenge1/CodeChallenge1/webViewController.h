@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  webViewController.h
 //  CodeChallenge1
 //
 //  Created by Wade Sellers on 10/2/14.
@@ -8,10 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface webViewController : UIViewController
 
-@property (strong, nonatomic) UIWindow *window;
-
+@property NSString *answerAsString;
 
 @end
-
